@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <title> Web de Alicia</title>
+      <meta charset="UTF-8">
+                <!-- conjunto de caracteres para español-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!-- diseña responsivo-->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <!-- compatibilidad con Edge-->
+      <meta name="Author" content="Alicia">
+      <meta name="Description" content="Breve descripción del contenido de la Web">
+      <meta name="Keywords" content="palabras claves para la búsqueda, separadas por coma">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href=" dirección donde se aloja el icono, extension *.ico,png,gif"  type="image/x-icon">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {background-image: linear-gradient(45deg, rgb(219, 83, 83), rgb(87, 87, 201), pink , rgb(224, 224, 97), rgb(142, 221, 142)); }
+        
+        h1 {
+          color: white;
+          text-align: center;
+        }
+        h2{
+            color:rgb(0, 0, 0);
+            text-align:center ;
+        }
+        h3{
+            color:rgb(14, 9, 19);
+            text-align:left  ;
+        }
+        p {
+          font-family: verdana;
+          font-size: 5px;
+        }
+        aside {
+                width: 40%;
+                padding-left: 16px;
+                margin-left: 20px;
+                float: right;
+                font-style: italic;
+                background-image: linear-gradient(45deg, rgb(219, 83, 83), rgb(87, 87, 201), pink , rgb(224, 224, 97), rgb(142, 221, 142)); 
+                }
+        main {
+                margin: 0;
+                padding: 5px;
+                background-image: linear-gradient(45deg, rgb(219, 83, 83), rgb(87, 87, 201), pink , rgb(224, 224, 97), rgb(142, 221, 142));
+                }
+         p { 
+           color:rgb(5, 5, 5);
+                font-size: 15px; }
+         .clearfix::after {
+                 content: "";
+                clear: both;
+                display: table;
+              }
+         .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(228, 174, 219);
+                }
+          
+         .flex-container > div {
+            background-color: #419fbb;
+            margin: 30px;
+            text-align: center;
+            line-height: 25px;
+            font-size: 20px;
+          }
+
+         .sidenav {
+                height: 100%;
+                width: 160px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(255, 255, 255);
+                overflow-x: hidden;
+                padding-top: 20px;
+                }
+         aside {
+                width: 30%;
+                padding-left: 16px;
+                margin-left: 20px;
+                float: right;
+                font-style: italic;
+                background-color: rgb(228, 174, 219);
+                }
+         main {
+                margin: 50;
+                padding: 5px;
+                background-color: rgb(228, 174, 219);
+                }
+
+         .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #000000;
+                display: block;
+                }
+
+         .sidenav a:hover {
+                color: #f1f1f1;
+                }
+
+         .main {
+                margin-left: 160px; /* Same as the width of the sidenav */
+                font-size: 28px; /* Increased text to enable scrolling */
+                padding: 0px 10px;
+                }
+
+                @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav a {font-size: 18px;}
+                }
+                .button {
+                     border: none;
+                     color: white;
+                     padding: 15px 32px;
+                     text-align: center;
+                     text-decoration: none;
+                     display: inline-block;
+                     font-size: 16px;
+                     margin: 4px 2px;
+                     cursor: pointer;
+                     }
+
+                     .button1 {background-color: #4CAF50;} /* Green */
+                     .button2 {background-color: #008CBA;} /* Blue */
+       .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(228, 174, 219);
+                }
+          
+         .flex-container > div {
+            background-color: rgb(228, 174, 219);
+            margin: 30px;
+            text-align: center;
+            line-height: 25px;
+            font-size: 20px;
+          }
+          .item1 { grid-area: header; }
+      .item2 { grid-area: menu; }
+      .item3 { grid-area: main; }
+      .item4 { grid-area: right; }
+      .item5 { grid-area: footer; }
+
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main right right'
+          'menu footer footer footer footer footer';
+        grid-gap: 10px;
+        background-color: #ffffff;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        font-size: 10px;
+      }
+      
+  </style>
+  </head>
+  <body> 
+    <div class="sidenav">
+        <a href="toyota.html">Toyota</a>
+        <a href="Audi.html">Audi</a>
+        <a href="RENAULT.html">Renault</a>
+        <a href="Ibiza.html">Ibiza</a>
+        <a href="Pago.html">Pago</a>
+      </div>
+      <div class="main">     
+       <main>
+        <h2>COCHES.ali <br><br><img src="alicia1.jpg.jpg" alt="Girl in a jacket" width="400" height="600"></h2>
+       </main>
+              <p>Bienvenido a COCHES.ali aquí podras encontrar todo tipo de coches de todas las marcas, también puedes dar tu covhe y compar uno nuevo, pero para poder hacer eso el coche tiene que estar en buenas condiciones para poder hacer ese intercambio.</p>
+        <h1>Ubicación de las tiendas de coches en España</h1>
+       <div class="flex-container">
+              <div><a href="mapatoyota.html" >Toyota</a></div>
+              <div><a href="Maparenault.html" >Renault</a></div>
+              <div><a href="MapaAudi.html" >Audi</a></div>
+              <div><a href="mapaibiza.html" >Ibiza</a></div>
+       </div>
+       <div class="grid-container">
+              <div class="item1"> <h2>MIS DATOS PERSONALES </h2></div>
+              <div class="item2"><img src="instagram.jpg" alt="Workplace" usemap="#fotoesqueleto"> <br> <br> <br>  <img src="twitter.jpg" alt="Workplace" usemap="#fotoesqueleto">  <br> <br> <br>  <img src="drive.jpg" alt="Workplace" usemap="#fotoesqueleto"> </div>
+              <div class="item3"><p>
+                      <fieldset>
+                     <legend>Mis datos:</legend>
+                     <label for="fname">Nombre: Alicia </label>
+                     <BR>
+                     <label for="lname">Apellido: Díaz Gallego</label>
+                     <BR>
+                     <label for="email">Email: aliciadiazg01@gmail.com"</label>
+                     <label for="lname">Telefono: 717712489</label>
+                     <BR>
+                      <label for="lname">Localidad: Badajoz</label>
+                     <BR>
+                      <label for="lname">Calle: Mengabril/nº30</label>
+                     <BR>
+                    </fieldset>
+                    <br> <br> <br>  <img src="INSTITUTO.JPG" alt="Workplace" usemap="#fotoesqueleto"><img src="UNI.JPG" alt="Workplace" usemap="#fotoesqueleto"><img src="w3s.jpg" alt="Workplace" usemap="#fotoesqueleto">
+              </p>
+       </div>  
+              <div class="item4"><img src="gmail.jpg" alt="Workplace" usemap="#fotoesqueleto">  <br> <br> <br> <img src="blog.jpg" alt="Workplace" usemap="#fotoesqueleto"> </div>
+              <div class="item5">  <div class="flex-container">
+                     <div><a href="https://aliciadiazgallego01.blogspot.com/" >Blog</a></div>
+                     <div><a href="https://www.unex.es/">Universidad de Extremadura  </div></a>
+                     <div><a href="https://twitter.com/iniciarsesion?lang=es">Twitter  </div></a>
+                     <div><a href="https://www.w3schools.com/">W3S</a></div></a>
+                     <div><a href=" https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</div></a>
+                     <div><a href=" https://accounts.google.com/ServiceLogin/signinchooser?service=wise&passive=1209600&continue=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1kpmfWIi69W7shJyQ0tS74MWimaPTsyPr%2Fview&followup=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1kpmfWIi69W7shJyQ0tS74MWimaPTsyPr%2Fview&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Drive</div></a>
+                     <div><a href=" https://www.instagram.com/?hl=es">Instagram</div></a>
+                   </div></div>
+            
+            </div>
+       </div>
+  </body>

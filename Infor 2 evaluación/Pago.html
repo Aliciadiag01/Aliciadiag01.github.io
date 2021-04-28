@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <title> Web de Alicia</title>
+      <meta charset="UTF-8">
+                <!-- conjunto de caracteres para español-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!-- diseña responsivo-->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <!-- compatibilidad con Edge-->
+      <meta name="Author" content="Alicia">
+      <meta name="Description" content="Breve descripción del contenido de la Web">
+      <meta name="Keywords" content="palabras claves para la búsqueda, separadas por coma">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href=" dirección donde se aloja el icono, extension *.ico,png,gif"  type="image/x-icon">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {background-color: rgb(228, 174, 219);
+            }
+        
+        h1 {
+          color: white;
+          text-align: center;
+        }
+        h2{
+            color:rgb(120, 19, 214);
+            text-align:center ;
+        }
+        h3{
+            color:rgb(14, 9, 19);
+            text-align:left  ;
+        }
+        p {
+          font-family: verdana;
+          font-size: 5px;
+        }
+        aside {
+                width: 30%;
+                padding-left: 15px;
+                margin-left: 15px;
+                float: right;
+                font-style: italic;
+                background-color: rgb(228, 174, 219);
+                }
+        main {
+                margin: 0;
+                padding: 5px;
+                background-color: rgb(228, 174, 219);
+                }
+         p { 
+           color:red;
+                background: yellow;
+                font-size: 15px; }
+         .clearfix::after {
+                 content: "";
+                clear: both;
+                display: table;
+              }
+         .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(228, 174, 219);
+                }
+          
+         .flex-container > div {
+            background-color: #419fbb;
+            margin: 30px;
+            text-align: center;
+            line-height: 25px;
+            font-size: 20px;
+          }
+  </style>
+  </head>
+  <body>
+
+    <h1>Datos personales</h1>
+    <aside>
+      <br>
+        <form>
+            <fieldset>
+                <legend>Tus datos:</legend>
+                <label for="fname">Nombre:</label>
+                <input type="text" id="fname" name="fname" placeholder="Introduzca tu nombre"><br><br>
+                <label for="lname">Apellido:</label>
+                <input type="text" id="lname" name="lname" placeholder="Introduzca sus apellidos"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Cumpleaños:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <label for="pwd"> Introduzca su Password:</label>
+                <input type="password" id="pwd" name="pwd"><br>
+               </fieldset>
+             <!--imput radio-->
+             <h3>Por favor di tú  sexo</h3>
+             <input type="radio" id="male" name="genero" value="hombre">
+             <label for="male">Male</label><br>
+             <input type="radio" id="female" name="genero" value="mujer">
+             <label for="female">Female</label><br>
+             <input type="radio" id="other" name="genero" value="otros">
+             <label for="other">Other</label>
+             <br>
+             <br>
+             <label for="cars">Edad:</label>
+             <select id="cars" name="cars">
+             <option value="volvo">...</option>
+             <option value="volvo">-10</option>
+             <option value="volvo">10</option>
+             <option value="saab">11</option>
+             <option value="fiat">12</option>
+             <option value="audi">13</option>
+             <option value="volvo">14</option>
+             <option value="saab">16</option>
+             <option value="fiat">17</option>
+             <option value="audi">18</option>
+             <option value="volvo">+18</option>
+             </select>
+             <br>
+             <br>
+            <label for="appt">Que hora es:</label>
+            <input type="time" id="appt" name="appt">
+            <br>
+            <br>
+            <label for="files">Envia una foto de tu DNI</label>
+            <input type="file" id="files" name="files" multiple>
+            <br>
+            <br>
+            <label for="pwd"> Introduzca su DNI:</label>
+             <input type="password" id="pwd" name="pwd"><br>
+             <br>
+             <br>
+             <label for="email">Enter el email :</label>
+             <input type="email" id="email" name="email" placeholder="introduzca el email">
+        </form>
+    </aside>
+    <br>
+        <main>
+            <h3>¿Qué coche quieres?</h3> 
+            <form action="/action_page.php">
+              <textarea name="message" rows="30" cols="100">
+              </textarea>
+              <br>
+              <br>
+            </form>
+        </main>
+  </body>
+</html>
